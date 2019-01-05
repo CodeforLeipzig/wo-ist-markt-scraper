@@ -41,12 +41,22 @@ const handleOpeningHours = function(config, td, index) {
     const hourRangeStrs = hourRangesStr ? hourRangesStr.split(' und ') : [ 'Niemals' ]
     const hourRanges = hourRangeStrs.map(str => str.replace(' Uhr', '').split(' bis '))
     var openingHoursStr = ''
-    for (index in weekDays) {
-        if(index > 0) {
-            openingHoursStr += '; '    
+    if(hourRanges.length == 1) {
+        for (index in weekDays) {
+            if(index > 0) {
+                openingHoursStr += ', '    
+            }
+            openingHoursStr += weekDays[index]; 
         }
-        openingHoursStr += weekDays[index] + ' '
-            + hourRanges[index >= hourRanges.length ? hourRanges.length - 1 : index].join('-')
+        openingHoursStr += ' ' + hourRanges[0].join('-')
+    } else {
+        for (index in weekDays) {
+            if(index > 0) {
+                openingHoursStr += '; '    
+            }
+            openingHoursStr += weekDays[index] + ' '
+                + hourRanges[index >= hourRanges.length ? hourRanges.length - 1 : index].join('-')
+        }
     }
     market.openingHours = openingHoursStr
 }

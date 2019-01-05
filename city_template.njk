@@ -1,9 +1,11 @@
 {
-    "features": [
-    {% for market in markets %}
+    "features": [{% for market in markets %}
         {
             "geometry": {
-                "coordinates": [{{market.coordinates}}],
+                "coordinates": [
+                    {{market.coordinates[0]}},
+                    {{market.coordinates[1]}}
+                ],
                 "type": "Point"
             },
             "properties": {
@@ -12,7 +14,22 @@
                 "title": "{{market.name}}"
             },
             "type": "Feature"
-        }{% if loop.index < loop.length %},{% endif %}{% endfor %}
+        }{% if loop.index < loop.length %},{% endif %}{% endfor %},
+        {
+            "geometry": {
+                "coordinates": [
+                    12.35421,
+                    51.343695
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Am Sportforum 2",
+                "opening_hours": "Sa 07:00-15:30",
+                "title": "Markt am Sportforum"
+            },
+            "type": "Feature"
+        }       
     ],
     "metadata": {
         "data_source": {

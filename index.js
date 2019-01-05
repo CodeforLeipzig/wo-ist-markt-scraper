@@ -15,14 +15,25 @@ request({
     const template = fs.readFileSync('./city_template.njk', 'utf-8')
     const config = require('./config.json', 'utf-8')
     const locations = require('./locations.json', 'utf-8')
+    const newMarkets = []
     config.markets.forEach(market => {
-        const matchingLoc = locations.locations.find(loc => loc.name == market.name)
-        if (matchingLoc) {
-            market.location = matchingLoc.location
-            market.name = matchingLoc.title
-            market.coordinates = matchingLoc.coordinates
+        const matchingLocs = locations.locations.filter(loc => loc.name == market.name)
+        if (matchingLocs.length > 0)  {
+            for (index in matchingLocs) {
+                matchingLoc = matchingLocs[index];
+                const newMarket = {}
+                newMarket.location = matchingLoc.location
+                newMarket.name = matchingLoc.title
+                newMarket.coordinates = matchingLoc.coordinates
+                newMarket.title = market.title
+                newMarket.openingHours = market.openingHours
+                newMarkets.push(newMarket)
+            }
+        } else {
+            newMarkets.push(market)
         }
     })
+    config.markets = newMarkets
     const rendered = nunjucks.renderString(template, config);
     fs.writeFileSync('./leipzig.json', rendered, 'utf-8')    
 });

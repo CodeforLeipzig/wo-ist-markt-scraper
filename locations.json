@@ -5,8 +5,8 @@
             "title": "Wochenmarkt in der Bästleinstraße",
             "location": "Bästleinstraße (bei der Kita)",
             "coordinates": [
-                12.42495,
-                51.35542
+                12.42319,
+                51.35514
             ]
         },
         {
@@ -65,6 +65,24 @@
         },
         {
             "coordinates": [
+                12.37474,
+                51.34055
+            ],
+            "name": "Innenstadt (Marktplatz oder Augustusplatz)",
+            "location": "Marktplatz oder Agustusplatz",
+            "title": "Wochenmarkt in der Innenstadt"
+        },
+        {
+            "coordinates": [
+                12.38119,
+                51.33969
+            ],
+            "name": "Innenstadt (Marktplatz oder Augustusplatz)",
+            "location": "Marktplatz oder Agustusplatz",
+            "title": "Wochenmarkt in der Innenstadt"
+        },        
+        {
+            "coordinates": [
                 12.4639511,
                 51.2826373
             ],
@@ -105,7 +123,7 @@
                 51.35224
             ],
             "name": "Paunsdorf",
-            "location": null,
+            "location": "Waldzieststraße",
             "title": "Wochenmarkt Paunsdorf"
         },
         {
@@ -125,15 +143,6 @@
             "name": "Wiederitzsch (Hugo-Krone-Platz)",
             "location": "Hugo-Krone-Platz",
             "title": "Wochenmarkt Wiederitzsch"
-        },
-        {
-            "coordinates": [
-                12.3747374,
-                51.3405479
-            ],
-            "name": "Innenstadt (Marktplatz oder Augustusplatz)",
-            "location": "Marktplatz oder Agustusplatz",
-            "title": "Wochenmarkt in der Innenstadt"
         }
     ]
 }
