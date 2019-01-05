@@ -1,0 +1,17 @@
+{
+  "name": "wo-ist-markt-scraper",
+  "version": "1.0.0",
+  "description": "Scraper fuer Markt-Daten aus Leipzig",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joerg Reichert",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "nunjucks": "^3.1.6",
+    "request": "^2.88.0"
+  }
+}

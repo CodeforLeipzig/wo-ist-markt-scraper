@@ -1,0 +1,24 @@
+{
+    "features": [
+    {% for market in markets %}
+        {
+            "geometry": {
+                "coordinates": [{{market.coordinates}}],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "{{market.location}}",
+                "opening_hours": "{{market.openingHours}}",
+                "title": "{{market.name}}"
+            },
+            "type": "Feature"
+        }{% if loop.index < loop.length %},{% endif %}{% endfor %}
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Stadt Leipzig",
+            "url": "https://www.leipzig.de/freizeit-kultur-und-tourismus/einkaufen-und-ausgehen/maerkte/"
+        }
+    },
+    "type": "FeatureCollection"
+}

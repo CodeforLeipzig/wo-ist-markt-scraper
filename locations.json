@@ -1,0 +1,139 @@
+{
+    "locations": [
+        {
+            "name": "Bästleinstraße (bei der Kita)",
+            "title": "Wochenmarkt in der Bästleinstraße",
+            "location": "Bästleinstraße (bei der Kita)",
+            "coordinates": [
+                12.42495,
+                51.35542
+            ]
+        },
+        {
+            "coordinates": [
+                12.3800753,
+                51.330633
+            ],
+            "name": "Bayrischer Platz",
+            "location": "Bayrischer Platz",
+            "title": "Wochenmarkt am Bayrischer Platz"
+        },        
+        {
+            "coordinates": [
+                12.37084,
+                51.36221
+            ],
+            "name": "Gohlis-Arkaden (Lützowstraße/Georg-Schumann-Straße)",
+            "location": "Lützowstraße/Georg-Schumann-Straße",
+            "title": "Wochenmarkt Gohlis-Arkaden"
+        },
+        {
+            "coordinates": [
+                12.36016,
+                51.37624
+            ],
+            "name": "Gohlis-Park (Landsberger Straße/Max-Liebermann-Straße)",
+            "location": "Landsberger Straße/Max-Liebermann-Straße",
+            "title": "Wochenmarkt Gohlis-Park"
+        },
+        {
+            "coordinates": [
+                12.30418,
+                51.32200
+            ],
+            "name": "Grünau WK 2 (Grünauer Allee/Alte Salzstraße)",
+            "location": "Grünauer Allee/Alte Salzstraße",
+            "title": "Wochenmarkt Grünau (Wohnkomplex 2)"
+        },
+        {
+            "coordinates": [
+                12.29290,
+                51.31414
+            ],
+            "name": "Grünau WK 4 (Stuttgarter Allee/Alte Salzstraße)",
+            "location": "Stuttgarter Allee an der ehem. Post",
+            "title": "Wochenmarkt Grünau (Wohnkomplex 4)"
+        },
+        {
+            "coordinates": [
+                12.26863,
+                51.31611
+            ],
+            "name": "Grünau WK 7 (Miltitzer Allee/Jupiterstraße)",
+            "location": "Miltitzer Allee/Jupiterstraße",
+            "title": "Wochenmarkt Grünau (Wohnkomplex 7)"
+        },
+        {
+            "coordinates": [
+                12.4639511,
+                51.2826373
+            ],
+            "name": "Liebertwolkwitz (Marktplatz)",
+            "location": "Marktplatz",
+            "title": "Wochenmarkt Liebertwolkwitz"
+        },
+        {
+            "coordinates": [
+                12.33403,
+                51.33722
+            ],
+            "name": "Lindenauer Markt",
+            "location": "Lindenauer Markt",
+            "title": "Wochenmarkt am Lindenauer Markt"
+        },
+        {
+            "coordinates": [
+                12.3990085,
+                51.3011382
+            ],
+            "name": "Lößnig (Johannes-R.-Becher-Straße)",
+            "location": "Johannes-R.-Becher-Straße",
+            "title": "Wochenmarkt Lößnig"
+        },
+        {
+            "coordinates": [
+                12.37265,
+                51.34362
+            ],
+            "name": "Richard-Wagner-Platz",
+            "location": "Richard-Wagner-Platz",
+            "title": "Wochenmarkt am Richard-Wagner-Platz"
+        },
+        {
+            "coordinates": [
+                12.45988,
+                51.35224
+            ],
+            "name": "Paunsdorf",
+            "location": null,
+            "title": "Wochenmarkt Paunsdorf"
+        },
+        {
+            "coordinates": [
+                12.41489,
+                51.34599
+            ],
+            "name": "Torgauer Platz",
+            "location": "Torgauer Platz",
+            "title": "Wochenmarkt am Torgauer Platz"
+        },
+        {
+            "coordinates": [
+                12.37342,
+                51.39332
+            ],
+            "name": "Wiederitzsch (Hugo-Krone-Platz)",
+            "location": "Hugo-Krone-Platz",
+            "title": "Wochenmarkt Wiederitzsch"
+        },
+        {
+            "coordinates": [
+                12.3747374,
+                51.3405479
+            ],
+            "name": "Innenstadt (Marktplatz oder Augustusplatz)",
+            "location": "Marktplatz oder Agustusplatz",
+            "title": "Wochenmarkt in der Innenstadt"
+        }
+    ]
+}
